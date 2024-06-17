@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "react",
+      "import"
+    ],
+    "rules": {
+      // Additional rules or overrides can go here
+      "semi": [2, "always"],
+      "react/prop-types": ["warn", { "ignore": ["dispatch"] }],
+      "no-unused-vars": ["warn", { "varsIgnorePattern": "(trl?|require)", "argsIgnorePattern": "^_" }]
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  
