@@ -1,7 +1,8 @@
-## Demo
+<h2 align="center">Demo</h2>
 
-![Demo](demo.gif)
-
+<p align="center">
+  <img src="demo.gif" alt="Demo">
+</p>
 
 # Getting Started with Create React App
 
