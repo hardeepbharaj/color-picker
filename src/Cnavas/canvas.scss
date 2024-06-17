@@ -1,0 +1,36 @@
+@import '../styles/variables.scss';
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.canvas-container {
+  margin: 20px auto;
+  position: relative;
+  height: 100%;
+
+  .hex-code {
+    position: absolute;
+    text-align: center;
+    font-size: 8px;
+    color: $dark-grey;
+    background-color: $white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .picker-circle {
+    position: absolute;
+    pointer-events: none;
+    border-radius: '50%'
+  }
+}
+
+
+
+
+
+
