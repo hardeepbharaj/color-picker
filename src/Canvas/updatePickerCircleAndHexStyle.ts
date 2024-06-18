@@ -7,8 +7,8 @@ const updatePickerCircleAndHexStyle = (
   setPickerHexCodeStyle: CSSPropertiesSetterType
 ) => {
   const pickerCircleSize = 100;
-  const pickerCircleLeft = e.clientX - pickerCircleSize / 2.1;
-  const pickerCircleTop = (e.clientY - pickerCircleSize / 2.7) - rect.top;
+  const pickerCircleLeft = e.clientX - pickerCircleSize / 2;
+  const pickerCircleTop = (e.clientY - pickerCircleSize / 2) - rect.top;
 
   setPickerCircleStyle({
     display: 'block',

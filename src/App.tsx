@@ -11,7 +11,7 @@ function App() {
   const [pickedColor, setPickedColor] = useState<string>('');
 
   return (
-    <div className="App" style={{ cursor: dropperCursor ? `url('${Cursor}'), auto` : 'default' }}>
+    <div className="App" style={{ cursor: dropperCursor ? `url('${Cursor}') 0 15, auto` : 'default' }}>
       <Header
         dropperCursor={dropperCursor}
         pickedColor={pickedColor}

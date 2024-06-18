@@ -44,8 +44,8 @@ describe('Canvas/updatePickerCircleStyle and updatePickerHexcodeStyle test funct
 
     updatePickerCircleAndHexStyle(mockMouseEvent as MouseEvent, mockRect as DOMRect, mockSetPickerCircleStyle, mockSetPickerHexCodeStyle);
 
-    const pickerCircleLeft: number = mockMouseEvent.clientX - pickerCircleSize / 2.1;
-    const pickerCircleTop: number = (mockMouseEvent.clientY - pickerCircleSize / 2.7) - mockRect.top;
+    const pickerCircleLeft: number = mockMouseEvent.clientX - pickerCircleSize / 2;
+    const pickerCircleTop: number = (mockMouseEvent.clientY - pickerCircleSize / 2) - mockRect.top;
 
     // Assertions for updatePickerCircleStyle
     expect(mockSetPickerCircleStyle).toHaveBeenCalledWith({
